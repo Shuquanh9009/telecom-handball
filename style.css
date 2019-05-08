@@ -1,5 +1,4 @@
 body {
-  padding-top: 70px;
   font: 400 15px Lato, sans-serif;
   line-height: 1.8;
   color: #818181;
@@ -21,10 +20,11 @@ h4 {
   margin-bottom: 30px;
 }
 
+
 .homebg {
   height: 100%;
   width: 100%;
-  background-image: url(bg.jpg);
+  background-image: url(pictures/bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -264,7 +264,3 @@ footer .glyphicon {
   text-align: center
 }
 
-.homebg,
-jumbotron {
-  background:blue;
-}
