@@ -11,16 +11,17 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="style.css" type="text/css" />
-  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 
 <!-- Home info page -->
-<div id="home" class=" text-center">
-  <div class="jumbotron">
+<div id="home" class=" text-align-center bg-grey">
+  <div class=" homebg jumbotron">
   <h1>Telecom Boys Handball</h1> 
-  <p>John Lamicella, Coach</p>
-  <p> Handball is a fun and competitive sport </p>
+  <p><strong>John Lamicella, Coach</strong></p>
+  <p> <strong>Handball is a fun and competitive sport</strong> </p>
+   
 </div>
   <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
@@ -32,7 +33,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#myPage">Telecom Boys Handball</a>
+      <a class="navbar-brand" href="#home">Telecom Boys Handball</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
@@ -56,13 +57,24 @@
     
 </div>
 
-<div id="coach"class="container-fluid bg-grey">
+<div id="coach" class="container-fluid bg-grey">
   <div class="row">
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-globe logo slideanim"></span>
+      <img class="img-circle" src="coach.JPG" alt>
     </div>
     <div class="col-sm-8">
       <h2>Coach John Lamicella</h2><br>
+     <div>
+                <a href="mailto:jlamicella@hstat.org">
+                <i class="fa fa-envelope-o"></i>
+                <p>jlamicella@hstat.org</p></a>
+              </div>
+      <div>
+        <a href="tel: 1-718-759-3444">
+           <i class="fa fa-phone"></i>
+           <p>718-759-3444</p>
+        </a>
+      </div>
       
     </div>
   </div>
@@ -70,51 +82,81 @@
 
 <!-- members section -->
 <div id="member" class="container-fluid text-center">
-  <h2>Members</h2>
-  <h4>Our Team</h4>
-  <br>
-  <!--Add member pic and name-->
-  <div class="row slideanim">
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-off logo-small"></span>
-      <h4>POWER</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+      <h2>Members</h2>
+      <h4>Singles Player</h4>
+      <br>
+      <!--Add member pic and name-->
+      <div class="row slideanim">
+        <div class="col-sm-4">
+          <img class="img-circle" src="justinz.JPG" alt>
+          <h4>Justin Zhen</h4>
+          <p>First Single</p>
+        </div>
+        <div class="col-sm-4">
+          <img class="img-circle" src="shuquan.JPG" alt>
+          <h4>Shuquan Huang</h4>
+          <p>Second Single/Captain</p>
+        </div>
+        <div class="col-sm-4">
+          <img class="img-circle" src="miguel.JPG" alt>
+          <h4>Miguel Cristano</h4>
+          <p>Third Single</p>
+        </div>
+      </div>
+      <br><br>
+      <h4> Doubles Player</h4>
+      <div class="row slideanim">
+        <div class="col-sm-3">
+          <img class="img-circle" src="tony.JPG" alt>
+          <h4>Tony Lin</h4>
+          <p>First Double</p>
+        </div>
+        <div class="col-sm-3">
+          <img class="img-circle" src="riley.JPG" alt>
+          <h4>Riley Kong</h4>
+          <p>First Double</p>
+        </div>
+        <div class="col-sm-3">
+          <img class="img-circle" src="andrew.JPG" alt>
+          <h4>Andrew Zhang</h4>
+          <p>Second Double</p>
+        </div>
+        <div class="col-sm-3">
+          <img class="img-circle" src="abdel.JPG" alt>
+          <h4 >Abdelazim Elhanafy</h4>
+          <p>Second Double</p>
+        </div>
+      </div>
+      <br><br>
+      <h4>Subs</h4>
+      <div class="row slideanim">
+        <div class="col-sm-3">
+          <img class="img-circle" src="justino.JPG" alt>
+          <h4>Justin Ortiz</h4>
+          <p>First Sub</p>
+        </div>
+        <div class="col-sm-3">
+          <img class="img-circle" src="brianl.JPG" alt>
+          <h4>Brian Liu</h4>
+          <p>Second Sub</p>
+        </div>
+        <div class="col-sm-3">
+          <img class="img-circle" src="brianh.JPG" alt>
+          <h4>Brian Hoang</h4>
+          <p>Third Sub</p>
+        </div>
+        <div class="col-sm-3">
+          <img class="img-circle" src="" alt>
+          <h4 >Junier Pacheco</h4>
+          <p>Fouth Sub</p>
+        </div>
+      </div>
     </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-heart logo-small"></span>
-      <h4>LOVE</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-lock logo-small"></span>
-      <h4>JOB DONE</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
-  </div>
-  <br><br>
-  <div class="row slideanim">
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-leaf logo-small"></span>
-      <h4>GREEN</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-certificate logo-small"></span>
-      <h4>CERTIFIED</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-wrench logo-small"></span>
-      <h4 style="color:#303030;">HARD WORK</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
-  </div>
-</div>
 
 <!-- How to Play (htp) section --> 
 <section id="htp">
-		<div class="container-fluid">
-			<h1><strong>How To Play:</strong></h4>
+		<div class="container-fluid bg-grey">
+			<h1><strong>How To Play:</strong></h1>
 			<h1><strong>Singles</strong></h1>
 				<h1>Make use of the corners</h1>
 			<h1><strong>Doubles</strong></h1>
@@ -226,14 +268,12 @@
 	</section>
 
 <!--credit page for David Kim-->
-<div id="credit" class="container-fluid bg-grey">
+<div id="credit" class="text-align-center container-fluid bg-grey">
   <h2 class="text-center"> Credit</h2>
   <p> Special thank you to our former first single <strong>Mr.David Kim</strong> for his contributation to the team by providing a very useful guide book on how to play handball</p>
-  
+  <img class="kim" src="kim.PNG" alt>
 </div>
 
-<!-- Image of location/map -->
-<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
 
 <footer class="container-fluid text-center">
   <a href="#myPage" title="To Top">
