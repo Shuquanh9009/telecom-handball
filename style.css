@@ -225,20 +225,28 @@ footer .glyphicon {
   }
 }
 
-@media (max-width:945px) {
-  .homebg {
-    height: 100%;
-    width: 100%;
-    background-image: url(pictures/yj-logo.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-    z-index: -1;
-    color: red;
+/*@media (max-width: 945px) {*/
+/*  body {*/
+/*    height:80%;*/
+/*    width:80%;*/
+/*    padding-top: 0px;*/
+/*  }*/
+/*}*/
 
-  }
-}
+/*@media (max-width:945px) {*/
+/*  .homebg {*/
+/*    height: 100%;*/
+/*    width: 100%;*/
+/*    background-image: url(pictures/yj-logo.jpg);*/
+/*    background-position: center;*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*    overflow: hidden;*/
+/*    z-index: -1;*/
+/*    color: red;*/
+
+/*  }*/
+/*}*/
 
 #home {
   height: 100%;
